@@ -19,11 +19,11 @@ def solution(players, callings):
     return players
 ```
 
-## enumerate
+# enumerate
 
 - 리스트의 원소에 순서값(index)를 부여해주는 함수
 
- ### 사용법
+ ## 사용법
 
 - 기본
 
@@ -50,7 +50,7 @@ dict = {char:idx for idx,char in enumerate(arr)}
 '''
 ```
 
-[https://amazelimi.tistory.com/entry/Python-해시Hash란-무엇인가feat-Dictionary-자료구조](https://ctkim.tistory.com/entry/python-enumerate-function)
+[https://ctkim.tistory.com/entry/python-enumerate-function](https://ctkim.tistory.com/entry/python-enumerate-function)
 
 list 요소 별 개수를 count해서 dictionary화 할 때, 요소의 인덱스와 함께 묶어서 새로운 자료형을 만들 때 주로 사용한다.
 
