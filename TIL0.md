@@ -1,14 +1,5 @@
 # 99클럽 코테 스터디 0일차 TIL 딕셔너리&해시
 
-# 딕셔너리/해시
-
-- Key에 Value를 저장하는 구조(키-값 쌍 구조)
-- 고정된 요소의 갯수를 셀 때 이용
-
-https://jyj98020.tistory.com/47
-
-# 오늘의 학습 키워드
-
 ## 딕셔너리/해시
 
 - 임의 길이의 데이터를 고정 길이 데이터로 매핑하는 함수
@@ -20,8 +11,6 @@ https://jyj98020.tistory.com/47
 https://jyj98020.tistory.com/47
 
 https://amazelimi.tistory.com/entry/Python-해시Hash란-무엇인가feat-Dictionary-자료구조
-
-# 공부 한 내용 정리
 
 코딩 테스트에서는 고정된 요소의 갯수를 셀 때 주로 이용하는 것 같다.
 
@@ -52,7 +41,3 @@ https://amazelimi.tistory.com/entry/Python-해시Hash란-무엇인가feat-Dictio
     `list.sort()` : list 자체를 sort해서 반환(원본 list 순서가 바뀜)
     
     `sorted(list)`: sort한 list 반환(원본 list 순서가 바뀌지 않음)
-    
-- 내일 학습할 것은 무엇인지
-    
-    점점 lambda식에 대한 거부감을 줄일 것이다.
