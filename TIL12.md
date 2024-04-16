@@ -25,10 +25,12 @@ def solution(s):
 ```
 
 1. 문자열 s를 공백으로 쪼개서 변수 word로 for문을 돌린다
-  Abc()Def->["Abc","Def"]
 
-  1-1. 공백이 중복될 경우 아래처럼 문자열이 생성되므로 처리가 필요
-    Abc()()Def->["Abc"," ","Def"]
+    `Abc()Def->["Abc","Def"]`
+
+1-1. 공백이 중복될 경우 아래처럼 문자열이 생성되므로 처리가 필요
+
+    `Abc()()Def->["Abc"," ","Def"]`
     
 2-1. word가 빈칸이 아니라면 answer에 word[0].upper() + word[1:].lower() 삽입
 
