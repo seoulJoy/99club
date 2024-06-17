@@ -28,6 +28,17 @@ n, k = map(int, input().split())
 getResult(n, k)
 ```
 
+처음에 팩토리얼을 아래와 같이 구현했는데도 정답 처리되었음..
+
+```
+def factorial(x):
+    if x==0 :
+        return 1
+    for _ in range(1,x):
+        x *= _
+    return x
+```
+
 ## 다른 풀이
 
 재귀 함수를 사용하여 더 직관적으로 풀 수 있다.
